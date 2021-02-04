@@ -25,8 +25,8 @@ SECRET_KEY = 'v5pridxn$2+62pnt1qq7b@a89#=gjfqqm+93izrmmi^%$xrga2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", "192.168.0.103", "192.168.0.109", "192.168.0.108", "192.168.0.114", 
-                "192.168.0.115", "alexennder.pythonanywhere.com", "macbenah.se", "www.macbenah.se"]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", "macbenah.se", "www.macbenah.se",
+                 "ec2-13-48-56-86.eu-north-1.compute.amazonaws.com", "ip-172-31-36-124.eu-north-1.compute.internal"]
 
 
 # Application definition
