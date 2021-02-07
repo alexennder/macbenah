@@ -26,7 +26,7 @@ SECRET_KEY = 'v5pridxn$2+62pnt1qq7b@a89#=gjfqqm+93izrmmi^%$xrga2'
 DEBUG = True
 
 ALLOWED_HOSTS = ["127.0.0.1", "localhost", "macbenah.se", "www.macbenah.se",
-                 "172.31.30.47", "ip-172-31-36-124.eu-north-1.compute.internal", "ec2-13-49-72-28.eu-north-1.compute.amazonaws.com", "13.49.72.28"]
+                 "172.31.21.0", "ip-172-31-21-0.eu-north-1.compute.internal", "ec2-13-53-91-195.eu-north-1.compute.amazonaws.com", "13.53.91.195"]
 
 
 # Application definition
