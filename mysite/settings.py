@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'v5pridxn$2+62pnt1qq7b@a89#=gjfqqm+93izrmmi^%$xrga2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["127.0.0.1", "localhost", "macbenah.se", "www.macbenah.se", "13.51.23.76",
                  "172.31.21.0", "ip-172-31-21-0.eu-north-1.compute.internal", "ec2-13-53-91-195.eu-north-1.compute.amazonaws.com"]
