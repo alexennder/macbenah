@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'v5pridxn$2+62pnt1qq7b@a89#=gjfqqm+93izrmmi^%$xrga2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["127.0.0.1", "localhost", "macbenah.se", "www.macbenah.se", "13.51.23.76",
                  "172.31.21.0", "ip-172-31-21-0.eu-north-1.compute.internal", "ec2-13-53-91-195.eu-north-1.compute.amazonaws.com"]
@@ -123,9 +123,9 @@ USE_TZ = True
 #Location of static files
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static_cdn')
+STATIC_ROOT = os.path.join(BASE_DIR, '/var/www/html/static_cdn')
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media_cdn')
+MEDIA_ROOT = os.path.join(BASE_DIR, '/var/www/html/media_cdn')
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
